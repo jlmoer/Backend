@@ -63,9 +63,9 @@ app.post("/students", (req, res) => {
         name: req.body.name,
         age: req.body.age,
         gender: req.body.gender,
-    })
+    });
     res.json(students);
-})
+});
 
 
 
