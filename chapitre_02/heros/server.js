@@ -102,24 +102,5 @@ app.patch("/heroes/:name/powers", (req, res) => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Lancement du serveur:
 app.listen(8000, () => console.log("Listening on port 8000"));
